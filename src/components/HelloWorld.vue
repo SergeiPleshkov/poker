@@ -83,7 +83,7 @@ export default {
     isButtonSelected(index, button, group, stackSizeIndex){
       switch (index) {
         case 1:
-          return this[`btn${index}`].includes(this.replaceWithEmpty(group+button))
+          return this[`btn${index}`].includes(this.replaceWithEmpty(group + button))
             ? 'primary'
             : 'plain';
         case 2:
